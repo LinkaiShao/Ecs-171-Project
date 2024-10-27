@@ -1,0 +1,32 @@
+
+Title
+"Early Prediction of Students' Performance in Higher Education: A Case Study"
+APA Reference
+Martins, M. V., Tolledo, D., Machado, J., Baptista, L. M. T., & Realinho, V. (2021). Early prediction of students' performance in higher education: A case study. Polytechnic Institute of Portalegre (IPP), Portugal.
+
+Background
+The paper focuses on predicting student dropout in higher education using machine learning. They used a dataset from a Portuguese university with details on student academic paths, demographics, and socio-economic factors.
+Methods
+Data Handling: Cleaned the data for outliers and missing values, and split it 80% for training and 20% for testing.
+Class Imbalance: Used SMOTE to handle the imbalance, especially since dropout cases were fewer.
+Models Used: Tried Gradient Boosting, XGBoost, Logistic Regression, and CatBoost.
+Key Findings
+Best Model: Gradient Boosting had the best overall performance, especially in predicting the "Relative Success" class.
+Challenges: Even with boosting methods, predicting minority classes (like dropouts) was tough.
+
+
+
+Title
+"Exploring Statistical Approaches for Predicting Student Dropout in Education: A Systematic Review and Meta-Analysis"
+APA Reference
+Goyal, P., & Kumar, D. (2023). Exploring statistical approaches for predicting student dropout in education: A systematic review and meta-analysis. Journal of Educational Data Science.
+Background
+The paper reviews various statistical and machine learning approaches used to predict student dropout in education. The goal was to evaluate how effective different models are in identifying students at risk so that timely interventions could be implemented.
+Methods
+•	Data Handling: Collected and analyzed data from several educational institutions with information on students' academic performance, demographic background, and other relevant factors.
+•	Class Imbalance: Used methods such as SMOTE to address imbalances in data, as dropout cases were significantly fewer compared to successful completions.
+•	Models Used: Various models, including Logistic Regression, Neural Networks, Decision Trees, and others, were employed to determine which had the best predictive power.
+Key Findings
+•	Best Model: The review found that Decision Trees, especially models like Random Forest, performed best in predicting dropout rates.
+•	Challenges: The main challenge was dealing with data imbalance and the diversity of factors affecting dropouts, which led to varied model performance across datasets.
+
